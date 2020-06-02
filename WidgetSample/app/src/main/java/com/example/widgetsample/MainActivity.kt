@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val listView = findViewById<ListView>(R.id.list)
         val list = listOf("Texts", "EditTexts", "Buttons", "WebView", "VideoView", "CalendarView",
             "Widgets", "ContainerSpecialTags", "Containers", "RecyclerView", "ViewPager")
-        val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list)
+        val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, list)
         listView.adapter = adapter
 
         listView.setOnItemClickListener { _, _, position, _ ->

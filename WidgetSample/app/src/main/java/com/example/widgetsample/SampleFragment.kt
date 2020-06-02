@@ -5,11 +5,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.FrameLayout
+import android.widget.TextView
+import androidx.annotation.ColorRes
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
+private const val ARG_RES_ID = "resId"
+private const val ARG_SAMPLE_TEXT = "sampleText"
 
 /**
  * A simple [Fragment] subclass.
@@ -17,15 +18,14 @@ private const val ARG_PARAM2 = "param2"
  * create an instance of this fragment.
  */
 class SampleFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
+    private var resId: Int? = null
+    private var sampleText: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
+            resId = it.getInt(ARG_RES_ID)
+            sampleText = it.getString(ARG_SAMPLE_TEXT)
         }
     }
 
@@ -34,25 +34,25 @@ class SampleFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sample, container, false)
+        val view = inflater.inflate(R.layout.fragment_sample, container, false)
+        if (resId != null) {
+            val layout = view.findViewById<FrameLayout>(R.id.main_layout)
+            layout.setBackgroundResource(resId!!)
+        }
+        if (sampleText != null) {
+            val text = view.findViewById<TextView>(R.id.sample_text)
+            text.text = sampleText
+        }
+        return view
     }
 
     companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment SampleFragment.
-         */
-        // TODO: Rename and change types and number of parameters
         @JvmStatic
-        fun newInstance(param1: String, param2: String) =
+        fun newInstance(@ColorRes resId: Int, sampleText: String) =
             SampleFragment().apply {
                 arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
+                    putInt(ARG_RES_ID, resId)
+                    putString(ARG_SAMPLE_TEXT, sampleText)
                 }
             }
     }

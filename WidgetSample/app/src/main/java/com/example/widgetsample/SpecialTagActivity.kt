@@ -2,7 +2,6 @@ package com.example.widgetsample
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.view.ViewStub
 
 class SpecialTagActivity : AppCompatActivity() {
