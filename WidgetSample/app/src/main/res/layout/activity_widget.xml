@@ -80,6 +80,7 @@
                 android:text="SeekBar" />
 
             <SeekBar
+                android:id="@+id/seek_bar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"/>
@@ -119,6 +120,7 @@
                 android:text="RatingBar" />
 
             <RatingBar
+                android:id="@+id/rating_bar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -136,6 +138,7 @@
                 android:text="SearchView" />
 
             <SearchView
+                android:id="@+id/search"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
