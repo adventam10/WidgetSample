@@ -24,6 +24,7 @@
                 android:text="Button" />
 
             <Button
+                android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sample Text" />
@@ -42,6 +43,7 @@
                 android:text="ImageButton" />
 
             <ImageButton
+                android:id="@+id/image_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@android:drawable/ic_menu_info_details"/>
@@ -60,11 +62,13 @@
                 android:text="ChipGroup" />
 
             <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chip_group"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:singleSelection="true">
 
                 <com.google.android.material.chip.Chip
+                    android:id="@+id/chip1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:theme="@style/Theme.MaterialComponents.Light"
@@ -72,6 +76,7 @@
                     style="@style/Widget.MaterialComponents.Chip.Action" />
 
                 <com.google.android.material.chip.Chip
+                    android:id="@+id/chip2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:theme="@style/Theme.MaterialComponents.Light"
@@ -94,6 +99,7 @@
                 android:text="CheckBox" />
 
             <CheckBox
+                android:id="@+id/check_box"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sample Text" />
@@ -112,16 +118,19 @@
                 android:text="RadioGroup" />
 
             <RadioGroup
+                android:id="@+id/radio_group"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <RadioButton
+                    android:id="@+id/radio1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Radio1" />
 
                 <RadioButton
+                    android:id="@+id/radio2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Radio2" />
@@ -142,6 +151,7 @@
                 android:text="ToggleButton" />
 
             <ToggleButton
+                android:id="@+id/toggle_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sample Text" />
@@ -160,6 +170,7 @@
                 android:text="Switch" />
 
             <Switch
+                android:id="@+id/toggle_switch"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sample Text" />
@@ -178,6 +189,7 @@
                 android:text="FloatingActionButton" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:clickable="true"
