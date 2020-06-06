@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".GridViewActivity"></activity>
         <activity android:name=".ViewPagerActivity" />
         <activity android:name=".RecyclerViewActivity" />
         <activity android:name=".ContainerActivity" />
