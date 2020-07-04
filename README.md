@@ -35,7 +35,14 @@ Google と Layoutsは除外。
 | --- | --- |
 |![list](https://user-images.githubusercontent.com/34936885/83939084-003d0500-a815-11ea-8d41-80378c808022.png)|![grid](https://user-images.githubusercontent.com/34936885/83939100-18ad1f80-a815-11ea-9bd3-2ba437f8c146.png)|
 
+### Layouts
+| LinearLayout | RelativeLayout | FrameLayout |
+| --- | --- | --- |
+|![linear_layout](https://user-images.githubusercontent.com/34936885/86518759-ccceb400-be6e-11ea-9280-5dc6a267d834.png)|![relative_layout](https://user-images.githubusercontent.com/34936885/86518767-d526ef00-be6e-11ea-8068-798d3aa6b32f.png)|![frame_layout](https://user-images.githubusercontent.com/34936885/86518798-1ddea800-be6f-11ea-8046-a2567ecdcd81.png)|
 
+| TableLayout | GridLayout | ConstraintLayout |
+| --- | --- | --- |
+|![table_layout](https://user-images.githubusercontent.com/34936885/86518801-246d1f80-be6f-11ea-82eb-4d179ccd8a68.png)|![grid_layout](https://user-images.githubusercontent.com/34936885/86518817-541c2780-be6f-11ea-8fe4-e980838a8714.png)|![constraint_layout](https://user-images.githubusercontent.com/34936885/86518820-5bdbcc00-be6f-11ea-8f4e-b25814cddd78.png)|
 
 
 
