@@ -66,6 +66,6 @@
                     app:srcCompat="@drawable/botman_black"/>
             </TableRow>
         </TableLayout>
-    </LinearLayout>>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
