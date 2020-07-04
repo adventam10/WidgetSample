@@ -18,7 +18,8 @@ class MainActivity : AppCompatActivity() {
 
         val listView = findViewById<ListView>(R.id.list)
         val list = listOf("Texts", "EditTexts", "Buttons", "WebView", "VideoView", "CalendarView",
-            "Widgets", "ContainerSpecialTags", "Containers", "RecyclerView", "ViewPager", "GridView", "LinearLayout")
+            "Widgets", "ContainerSpecialTags", "Containers", "RecyclerView", "ViewPager", "GridView",
+            "LinearLayout", "RelativeLayout")
         val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, list)
         listView.adapter = adapter
 
@@ -38,6 +39,7 @@ class MainActivity : AppCompatActivity() {
                 Menu.ViewPager -> Intent(this, ViewPagerActivity::class.java)
                 Menu.GridView -> Intent(this, GridViewActivity::class.java)
                 Menu.LinearLayout -> Intent(this, LinearLayoutActivity::class.java)
+                Menu.RelativeLayout -> Intent(this, RelativeLayoutActivity::class.java)
             }
 
             startActivity(intent)
@@ -47,5 +49,6 @@ class MainActivity : AppCompatActivity() {
 
 enum class Menu {
     Texts, EditTexts, Buttons, WebView, VideoView, CalendarView, Widgets,
-    ContainerSpecialTags, Containers, RecyclerView, ViewPager, GridView, LinearLayout;
+    ContainerSpecialTags, Containers, RecyclerView, ViewPager, GridView,
+    LinearLayout, RelativeLayout;
 }
