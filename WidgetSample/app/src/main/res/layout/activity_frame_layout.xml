@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameLayoutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="FrameLayout" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="top|start"
+                android:background="#34c759"/>
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="top|start"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="40dp"
+                android:background="#5856d6"/>
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="top|end"
+                android:background="#ff9500"/>
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="top|end"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="40dp"
+                android:background="#ff2d55"/>
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="#ff3b30"/>
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="#007aff"/>
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom|start"
+                android:background="#af52de"/>
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom|start"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="40dp"
+                android:background="#5ac8fa"/>
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom|end"
+                android:background="#ffcc00"/>
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="40dp"
+                android:background="#8e8e93"/>
+        </FrameLayout>
+    </LinearLayout>>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
