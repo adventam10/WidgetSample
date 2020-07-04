@@ -176,6 +176,6 @@
                 android:layout_rowWeight="1"
                 android:text="="/>
         </GridLayout>
-    </LinearLayout>>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

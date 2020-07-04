@@ -89,6 +89,6 @@
                 android:layout_marginBottom="40dp"
                 android:background="#8e8e93"/>
         </FrameLayout>
-    </LinearLayout>>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

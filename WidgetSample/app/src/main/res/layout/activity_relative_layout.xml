@@ -65,5 +65,5 @@
                 android:layout_alignEnd="@id/image_green"
                 app:srcCompat="@drawable/botman_pink"/>
         </RelativeLayout>
-    </LinearLayout>>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
