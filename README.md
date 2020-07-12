@@ -26,9 +26,13 @@ Google と Layoutsは除外。
 |![widget](https://user-images.githubusercontent.com/34936885/83939040-93c20600-a814-11ea-95c0-712f8c1f0e10.png)|![web](https://user-images.githubusercontent.com/34936885/83939065-c835c200-a814-11ea-9e89-7303bbb4d278.png)|![video](https://user-images.githubusercontent.com/34936885/83939059-be13c380-a814-11ea-889e-409e4f5e21c2.png)|![calendar](https://user-images.githubusercontent.com/34936885/83939057-ad634d80-a814-11ea-8dac-79fde3c7c13a.png)|
 
 ### Containers
-| Container | <Include>とか | RecyclerView | ViewPager |
+| Container | \<Include>とか | RecyclerView | ViewPager |
 | --- | --- | --- | --- |
 |![container](https://user-images.githubusercontent.com/34936885/83939072-dc79bf00-a814-11ea-8734-b3e7fcf90eca.png)|![special](https://user-images.githubusercontent.com/34936885/83939077-e6032700-a814-11ea-8b5a-67de6b347b17.png)|![recycler](https://user-images.githubusercontent.com/34936885/83939094-0d59f400-a815-11ea-90ac-cb13f4be7ea1.png)|![pager](https://user-images.githubusercontent.com/34936885/83939082-fadfba80-a814-11ea-9290-7864ba4f3b8b.png)|
+
+| TabLayout |
+| --- |
+|![tab_layout](https://user-images.githubusercontent.com/34936885/87252494-91f00000-c4ae-11ea-9c71-9ff0fa82a219.gif)|
 
 ### Legacy
 | ListView | GridView |
