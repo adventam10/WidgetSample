@@ -31,9 +31,6 @@
         android:name="com.example.widgetsample.navigation.NavigationThirdFragment"
         android:label="fragment_navigation_third"
         tools:layout="@layout/fragment_navigation_third" >
-        <action
-            android:id="@+id/action_navigationThirdFragment_to_navigationFirstFragment"
-            app:destination="@id/navigationFirstFragment" />
         <argument
             android:name="text"
             app:argType="string" />
