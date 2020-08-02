@@ -1,18 +1,13 @@
 # WidgetSample
 Android Studio 3.6.3 の Layout Editor の Palette に表示される UI コンポーネントのサンプル集。
 
-Google と Layoutsは除外。
+Google は除外。
 
 下記は実装予定
 
 * AppBarLayout
 * BottomAppBar
-* NavigationView
-* BottomNavigationView
 * Toolbar
-* TabLayout
-* TabItem
-* NavHostFragment
 
 ## スクショ
 ### Text
@@ -48,7 +43,9 @@ Google と Layoutsは除外。
 | --- | --- | --- |
 |![table_layout](https://user-images.githubusercontent.com/34936885/86518801-246d1f80-be6f-11ea-82eb-4d179ccd8a68.png)|![grid_layout](https://user-images.githubusercontent.com/34936885/86518817-541c2780-be6f-11ea-8fe4-e980838a8714.png)|![constraint_layout](https://user-images.githubusercontent.com/34936885/86518820-5bdbcc00-be6f-11ea-8f4e-b25814cddd78.png)|
 
+### Navigation
+| NavigationView | BottomNavigationView |
+| --- | --- |
+|![navigation_view](https://user-images.githubusercontent.com/34936885/89113381-65c31000-d4ab-11ea-99b4-abcf03f510a5.png)|![bottom_navigation](https://user-images.githubusercontent.com/34936885/89113379-5ba11180-d4ab-11ea-8393-caab951431d7.png)|
 
-
-
-
+![navigation](https://user-images.githubusercontent.com/34936885/89113384-6f4c7800-d4ab-11ea-99f6-eeaaf69dd6de.gif)
